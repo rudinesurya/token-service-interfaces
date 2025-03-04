@@ -1,4 +1,4 @@
-export interface ITokenResponse {
+export interface ITokenCreateResponse {
     status: number;
     system_message: string;
     token: string | null;

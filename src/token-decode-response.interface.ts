@@ -1,4 +1,4 @@
-export interface ITokenDataResponse {
+export interface ITokenDecodeResponse {
     status: number;
     system_message: string;
     data: { user_id: string } | null;
